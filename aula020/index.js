@@ -13,4 +13,5 @@ function meuEscopo(){
     pessoa.push({
         nome: nome.n
     })
+
 }
