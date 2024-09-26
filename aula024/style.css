@@ -28,6 +28,15 @@ section > div> p{
 }
 
 section > div > img{
-    width: 250px;
-    border-top: -10px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+section > div#container{
+    margin-top: 33px;
+}
+
+section > div#mensagem{
+    margin-top: 10px;
 }
