@@ -21,4 +21,16 @@ section{
     border-radius: 8px;
     padding: 10px;
     box-shadow: 2px 2px 3px 0px #0f1f32;
+    max-width: 550px;
+    margin: auto;
+}
+
+img{
+    border-radius: 50%;
+    width: 290px;
+    height: 267px;
+}
+
+div#cont{
+    text-align: center;
 }
