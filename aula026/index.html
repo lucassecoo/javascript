@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <form action="" id="formulario">
+            <p>
+                <label for="vinicio">Inicio:</label>
+                <input type="number" name="vinicio" id="vinicio">
+            </p>
+
+            <p>
+                <label for="vfim">Fim:</label>
+                <input type="number" name="vfim" id="vfim">
+            </p>
+
+            <p>
+                <label for="vpasso">Passo:</label>
+                <input type="number" name="vpasso" id="vpasso">
+            </p>
+            <input type="button" value="contar" onclick="testar()">
+        </form>
+        <div id="cont">
+            <div id="resultado"></div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
