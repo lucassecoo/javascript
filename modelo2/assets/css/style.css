@@ -23,9 +23,5 @@ section > p{
 }
 
 #res{
-    font-size: 3em;
-}
-
-input{
-    padding: 3px;
+    font-size: 3em; !important
 }
