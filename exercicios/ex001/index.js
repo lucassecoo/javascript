@@ -9,7 +9,7 @@ function calculadora (x, y, a){
     }else if(a === '/'){
         return x / y
     } else{
-        throw new Error('Erro!')
+        throw new Error()
     }
     } catch(Error){
     console.log('deu erro')
