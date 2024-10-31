@@ -1,0 +1,97 @@
+@charset "UTF 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1em;
+}
+
+html{
+    background-color: #005662;
+}
+
+section{
+    max-width: 268px;
+    height: 584px;
+    background: url('../img/frame-iphone.png') no-repeat;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section > p{
+    padding-top: 10px;
+}
+
+#res{
+    font-size: 3em;
+}
+
+table{
+    position: absolute;
+    top: 41.2%;
+    left: 41.4%;
+    width: 268px;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+td{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 100%;
+    font-size: 1.5em;
+}
+
+td > button.btn-num, button.btn-del{
+    background-color: #333333;
+    color: white;
+    width: 110%;
+    height: 110%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+td > button.btn-dir{
+    background-color: #FF9F0A;
+    color: white;
+    border-color: #b46f08;
+    width: 110%;
+    height: 110%;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+td > button.btn-cima{
+    background-color: #A5A5A5;
+    width: 110%;
+    height: 110%;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+p#visor{
+    width: 268px;
+    height: 77px;
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 41%;
+    font-size: 2.7em;
+    text-align: right;
+}
+
+button {
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
+}
+
+button:active{
+    transform: scale(0.95); 
+    background-color: #ccc; 
+}
