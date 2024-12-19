@@ -1,0 +1,50 @@
+@charset "UTF 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #005662;
+}
+
+section{
+    max-width: 550px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section > p{
+    padding-top: 10px;
+}
+
+form input, form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+form input {
+    font-size: 24px;
+    height: 35px;
+}
+
+form label{
+    margin-top: 38px;
+}
+
+button{
+    padding: 5px;
+    background-color: green;
+    font-weight: bolder;
+    margin-left: 42%;
+}
+
+.errorText{
+    color: red;
+    font-size: small
+}
